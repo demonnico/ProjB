@@ -6,5 +6,5 @@ Pod::Spec.new do |spec|
   spec.resource = 'resource/*'
   spec.requires_arc = true
   spec.ios.deployment_target = '3.0'
-  spec.xcconfig = {"GCC_PREPROCESSOR_DEFINITIONS" => '$(inherited) APP_360'}
+  spec.xcconfig = {"GCC_PREPROCESSOR_DEFINITIONS" => '$(inherited) APP_B'}
 end
